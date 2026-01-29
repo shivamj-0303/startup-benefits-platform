@@ -17,7 +17,7 @@ app.use(helmet());
 
 const corsOptions = {
   origin: env.NODE_ENV === "production" 
-    ? ["https://yourdomain.com", "https://www.yourdomain.com"]
+    ? ["https://startup-benefits-platform-web.vercel.app/"]
     : ["http://localhost:3000", "http://localhost:3001"],
   credentials: true,
   optionsSuccessStatus: 200,
