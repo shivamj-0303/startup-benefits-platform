@@ -9,6 +9,7 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier . --check",
     "format:write": "prettier . --write",
+    "start:api": "npm --workspace apps/api run start",
     "dev:web": "npm --workspace apps/web run dev",
     "dev:api": "npm --workspace apps/api run dev",
     "dev": "concurrently -n WEB,API -c auto \"npm run dev:web\" \"npm run dev:api\""
